@@ -70,7 +70,8 @@ namespace LimeWorksV2
         protected override void Update(GameTime gameTime)
         {
             // Allows the game to exit
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed ||
+                InputManager.Instance.keyPressed(Keys.Q, Keys.Escape)) 
                 this.Exit();
 
             ScreenManager.Instance.Update(gameTime);

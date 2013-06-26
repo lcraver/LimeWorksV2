@@ -32,7 +32,7 @@ namespace LimeWorksV2
             base.Update(gameTime);
             Image.Update(gameTime);
 
-            if (Keyboard.GetState().IsKeyDown(Keys.Enter) && !ScreenManager.Instance.isTransitioning)
+            if (InputManager.Instance.keyPressed(Keys.Enter, Keys.Space))
                 ScreenManager.Instance.ChangeScreens("SplashScreen");
         }
 

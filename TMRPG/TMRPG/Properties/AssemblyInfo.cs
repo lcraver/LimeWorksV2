@@ -8,8 +8,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("LimeWorksV2")]
 [assembly: AssemblyProduct("LimeWorksV2")]
 [assembly: AssemblyDescription("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyCopyright("Copyright ©  2013")]
+[assembly: AssemblyCompany("Lime Studios")]
+[assembly: AssemblyCopyright("Lime Studios ©2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

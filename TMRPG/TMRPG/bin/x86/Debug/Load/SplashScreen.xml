@@ -14,5 +14,9 @@
       <ZoomMin>0.95</ZoomMin>
       <ZoomMax>1.05</ZoomMax>
     </ZoomEffect>
+    <Position>
+      <X>200</X>
+      <Y>50</Y>
+    </Position>
   </Image>
 </SplashScreen>

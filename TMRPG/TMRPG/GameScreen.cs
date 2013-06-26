@@ -40,7 +40,7 @@ namespace LimeWorksV2
 
         public virtual void Update(GameTime gameTime)
         {
-
+            InputManager.Instance.Update();
         }
 
         public virtual void Draw(SpriteBatch spriteBatch)
