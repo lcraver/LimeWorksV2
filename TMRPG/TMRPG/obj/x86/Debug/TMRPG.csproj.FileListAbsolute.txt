@@ -1,0 +1,11 @@
+c:\users\liam\documents\visual studio 2012\Projects\TMRPG\TMRPG\TMRPG\bin\x86\Debug\TMRPG.exe
+c:\users\liam\documents\visual studio 2012\Projects\TMRPG\TMRPG\TMRPG\bin\x86\Debug\TMRPG.pdb
+c:\users\liam\documents\visual studio 2012\Projects\TMRPG\TMRPG\TMRPG\obj\x86\Debug\TMRPG.csprojResolveAssemblyReference.cache
+c:\users\liam\documents\visual studio 2012\Projects\TMRPG\TMRPG\TMRPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\liam\documents\visual studio 2012\Projects\TMRPG\TMRPG\TMRPG\obj\x86\Debug\TMRPG.exe
+c:\users\liam\documents\visual studio 2012\Projects\TMRPG\TMRPG\TMRPG\obj\x86\Debug\TMRPG.pdb
+c:\users\liam\documents\visual studio 2012\Projects\TMRPG\TMRPG\TMRPG\bin\x86\Debug\Content\SplashScreen\LSLogo.xnb
+c:\users\liam\documents\visual studio 2012\Projects\TMRPG\TMRPG\TMRPG\bin\x86\Debug\Load\SplashScreen.xml
+C:\Users\Liam\documents\visual studio 2012\Projects\TMRPG\TMRPG\TMRPG\bin\x86\Debug\Content\Fonts\Coolvetica Rg.xnb
+C:\Users\Liam\documents\visual studio 2012\Projects\TMRPG\TMRPG\TMRPG\bin\x86\Debug\Content\ScreenManager\fade.xnb
+C:\Users\Liam\documents\visual studio 2012\Projects\TMRPG\TMRPG\TMRPG\bin\x86\Debug\Load\ScreenManager.xml

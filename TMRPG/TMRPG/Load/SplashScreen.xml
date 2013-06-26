@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SplashScreen>
+  <Image>
+    <Path>SplashScreen/LSLogo</Path>
+    <Effects>FadeEffect:ZoomEffect</Effects>
+    <IsActive>true</IsActive>
+    <Text>OMG WHAT IS THIS!!!</Text>
+    <Alpha>0.0</Alpha>
+    <FadeEffect>
+      <FadeSpeed>.4</FadeSpeed>
+    </FadeEffect>
+    <ZoomEffect>
+      <ZoomSpeed>.1</ZoomSpeed>
+      <ZoomMin>0.95</ZoomMin>
+      <ZoomMax>1.05</ZoomMax>
+    </ZoomEffect>
+  </Image>
+</SplashScreen>

@@ -1,0 +1,1 @@
+c:\users\liam\documents\visual studio 2012\Projects\TMRPG\TMRPG\TMRPGContent\obj\x86\Debug\TMRPGContent.contentprojResolveAssemblyReference.cache
