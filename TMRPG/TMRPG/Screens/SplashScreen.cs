@@ -33,7 +33,7 @@ namespace LimeWorksV2
             Image.Update(gameTime);
 
             if (InputManager.Instance.keyPressed(Keys.Enter, Keys.Space))
-                ScreenManager.Instance.ChangeScreens("SplashScreen");
+                ScreenManager.Instance.ChangeScreens("TitleScreen");
         }
 
         public override void Draw(SpriteBatch spriteBatch)

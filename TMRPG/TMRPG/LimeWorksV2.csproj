@@ -110,6 +110,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Screens\TitleScreen.cs" />
     <Compile Include="Helpers\InputManager.cs" />
     <Compile Include="Helpers\SoundManager.cs" />
     <Compile Include="ImageEffects\WarpEffect.cs" />
@@ -123,12 +124,16 @@
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="ScreenManager.cs" />
-    <Compile Include="SplashScreen.cs" />
+    <Compile Include="Screens\SplashScreen.cs" />
     <Compile Include="XMLManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />
     <Content Include="GameThumbnail.png" />
+    <Content Include="Load\TitleScreen.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Load\SplashScreen.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <SubType>Designer</SubType>
