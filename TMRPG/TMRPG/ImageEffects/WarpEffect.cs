@@ -9,15 +9,16 @@ namespace LimeWorksV2
 {
     public class WarpEffect : ImageEffect
     {
-        public float ZoomSpeed, ZoomMin, ZoomMax;
-        public bool Increase;
+        public float ZoomSpeed, ZoomMin, ZoomMax, ZoomMinX, ZoomMaxX, ZoomMinY, ZoomMaxY;
+        public bool IncreaseX, IncreaseY;
 
         public WarpEffect()
         {
             ZoomSpeed = 1f;
             ZoomMin = 0.5f;
             ZoomMax = 1.5f;
-            Increase = false;
+            ZoomMaxX = ZoomMaxY = 0.0f;
+            IncreaseX = IncreaseY = false;
         }
 
         public override void LoadContent(ref Image Image)
@@ -35,24 +36,39 @@ namespace LimeWorksV2
             base.Update(gameTime);
             if (image.IsActive)
             {
-                if (!Increase)
-                    image.Scale -= new Vector2(ZoomSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds);
+                if (!IncreaseX)
+                    image.Scale.X -= ZoomSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
                 else
-                    image.Scale += new Vector2(ZoomSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds);
+                    image.Scale.X += ZoomSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
 
-                if (image.Scale.X < ZoomMin)
+                if (image.Scale.X < ZoomMinX)
                 {
-                    Increase = true;
-                    image.Scale = new Vector2(ZoomMin);
+                    IncreaseX = true;
+                    image.Scale.X = ZoomMinX;
                 }
-                else if (image.Scale.X > ZoomMax)
+                else if (image.Scale.X > ZoomMaxX)
                 {
-                    Increase = false;
-                    image.Scale = new Vector2(ZoomMax);
+                    IncreaseX = false;
+                    image.Scale.X = ZoomMaxX;
+                }
+
+
+                if (!IncreaseY)
+                    image.Scale.Y -= ZoomSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+                else
+                    image.Scale.Y += ZoomSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+                if (image.Scale.Y < ZoomMinY)
+                {
+                    IncreaseY = true;
+                    image.Scale.Y = ZoomMinY;
+                }
+                else if (image.Scale.Y > ZoomMaxY)
+                {
+                    IncreaseY = false;
+                    image.Scale.Y = ZoomMaxY;
                 }
             }
-            else
-                image.Scale = new Vector2(ZoomMax);
         }
     }
 }

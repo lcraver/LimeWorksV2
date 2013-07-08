@@ -2,18 +2,11 @@
 <SplashScreen>
   <Image>
     <Path>SplashScreen/LSLogo</Path>
-    <Effects>FadeEffect:ZoomEffect</Effects>
+    <Effects>JitterEffect</Effects>
     <IsActive>true</IsActive>
-    <Text>OMG WHAT IS THIS!!!</Text>
-    <Alpha>0.0</Alpha>
-    <FadeEffect>
-      <FadeSpeed>.4</FadeSpeed>
-    </FadeEffect>
-    <ZoomEffect>
-      <ZoomSpeed>.1</ZoomSpeed>
-      <ZoomMin>0.95</ZoomMin>
-      <ZoomMax>1.05</ZoomMax>
-    </ZoomEffect>
+    <JitterEffect>
+      <MoveType>Random</MoveType>
+    </JitterEffect>
     <Position>
       <X>200</X>
       <Y>50</Y>

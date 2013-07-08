@@ -114,7 +114,7 @@
     <Compile Include="Helpers\InputManager.cs" />
     <Compile Include="Helpers\SoundManager.cs" />
     <Compile Include="ImageEffects\WarpEffect.cs" />
-    <Compile Include="ImageEffects\ShatterEffect.cs" />
+    <Compile Include="ImageEffects\JitterEffect.cs" />
     <Compile Include="ImageEffects\ZoomEffect.cs" />
     <Compile Include="ImageEffects\FadeEffect.cs" />
     <Compile Include="GameScreen.cs" />

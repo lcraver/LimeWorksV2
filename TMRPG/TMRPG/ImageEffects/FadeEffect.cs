@@ -34,23 +34,28 @@ namespace LimeWorksV2
             if (image.IsActive)
             {
                 if (!Increase)
-                    image.Alpha -= FadeSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+                    image.Alpha -= GetFadeSpeed(gameTime);
                 else
-                    image.Alpha += FadeSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+                    image.Alpha += GetFadeSpeed(gameTime);
 
                 if (image.Alpha < 0.0f)
                 {
-                    Increase = true;
+                    Increase = !Increase;
                     image.Alpha = 0.0f;
                 }
                 else if (image.Alpha > 1.0f)
                 {
-                    Increase = false;
+                    Increase = !Increase;
                     image.Alpha = 1.0f;
                 }
             }
             else
                 image.Alpha = 1.0f;
+        }
+
+        private float GetFadeSpeed(GameTime gameTime)
+        {
+            return FadeSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
         }
     }
 }

@@ -28,6 +28,7 @@ namespace LimeWorksV2
 
         public FadeEffect FadeEffect;
         public ZoomEffect ZoomEffect;
+        public JitterEffect JitterEffect;
 
         void SetEffect<T>(ref T effect)
         {
@@ -114,6 +115,7 @@ namespace LimeWorksV2
 
             SetEffect<FadeEffect>(ref FadeEffect);
             SetEffect<ZoomEffect>(ref ZoomEffect);
+            SetEffect<JitterEffect>(ref JitterEffect);
 
             if (Effects != String.Empty)
             {
