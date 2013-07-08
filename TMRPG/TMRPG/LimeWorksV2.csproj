@@ -140,6 +140,7 @@
     </Content>
     <Content Include="Load\ScreenManager.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>

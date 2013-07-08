@@ -29,13 +29,33 @@
       <Time>2013-06-22T12:39:33.6519735-05:00</Time>
     </Item>
     <Item>
+      <Source>ScreenManager\fade2.png</Source>
+      <Name>ScreenManager\fade2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\ScreenManager\fade2.xnb</Output>
+      <Time>2013-07-08T13:48:50.2684093-05:00</Time>
+    </Item>
+    <Item>
       <Source>Music\music.wav</Source>
       <Name>Music\music</Name>
       <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
+      <Processor>SongProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Music\music.xnb</Output>
+      <Extra>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Music\music.wma</Extra>
       <Time>2013-06-26T09:21:07.4479999-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Music\SplashSound.mp3</Source>
+      <Name>Music\SplashSound</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Music\SplashSound.xnb</Output>
+      <Extra>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Music\SplashSound.wma</Extra>
+      <Time>2013-07-08T15:55:16.8165079-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

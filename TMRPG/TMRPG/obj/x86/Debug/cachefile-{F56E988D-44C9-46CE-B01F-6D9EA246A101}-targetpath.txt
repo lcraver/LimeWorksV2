@@ -1,4 +1,8 @@
 Content\SplashScreen\LSLogo.xnb
 Content\ScreenManager\fade.xnb
 Content\Fonts\Coolvetica Rg.xnb
+Content\ScreenManager\fade2.xnb
 Content\Music\music.xnb
+Content\Music\music.wma
+Content\Music\SplashSound.xnb
+Content\Music\SplashSound.wma

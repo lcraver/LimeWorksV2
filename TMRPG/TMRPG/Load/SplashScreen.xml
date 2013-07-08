@@ -12,4 +12,9 @@
       <Y>50</Y>
     </Position>
   </Image>
+  <soundManager>
+    <Path>Music/SplashSound</Path>
+    <isPlaying>true</isPlaying>
+    <Volume>0.0</Volume>
+  </soundManager>
 </SplashScreen>

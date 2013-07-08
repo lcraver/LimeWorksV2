@@ -2,7 +2,7 @@
 <SplashScreen>
   <Image>
     <Path>SplashScreen/LSLogo</Path>
-    <Effects>JitterEffect:ZoomEffect:FadeEffect</Effects>
+    <Effects>JitterEffect</Effects>
     <IsActive>true</IsActive>
     <JitterEffect>
       <MoveType>Random</MoveType>
@@ -12,4 +12,9 @@
       <Y>50</Y>
     </Position>
   </Image>
+  <soundManager>
+    <Path>Music/SplashSound</Path>
+    <isPlaying>true</isPlaying>
+    <Volume>0.0</Volume>
+  </soundManager>
 </SplashScreen>

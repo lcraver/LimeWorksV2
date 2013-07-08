@@ -13,24 +13,28 @@ namespace LimeWorksV2
     public class SplashScreen : GameScreen
     {
         public Image Image;
+        public SoundManager soundManager;
 
         public override void LoadContent()
         {
             base.LoadContent();
             Image.LoadContent();
-            //Image.FadeEffect.FadeSpeed = 0.25f;
+            soundManager.LoadContent();
+            soundManager.FadeSong(1.0f, new TimeSpan(0, 0, 1));
         }
 
         public override void UnloadContent()
         {
             base.UnloadContent();
             Image.UnloadContent();
+            soundManager.UnloadContent();
         }
 
         public override void Update(GameTime gameTime)
         {
             base.Update(gameTime);
             Image.Update(gameTime);
+            soundManager.Update(gameTime);
 
             if (InputManager.Instance.keyPressed(Keys.Enter, Keys.Space))
                 ScreenManager.Instance.ChangeScreens("TitleScreen");
