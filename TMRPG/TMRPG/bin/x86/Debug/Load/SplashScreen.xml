@@ -6,6 +6,8 @@
     <IsActive>true</IsActive>
     <JitterEffect>
       <MoveType>Random</MoveType>
+      <RandomMax>200</RandomMax>
+      <MoveSpeed>10</MoveSpeed>
     </JitterEffect>
     <Position>
       <X>200</X>
@@ -13,8 +15,7 @@
     </Position>
   </Image>
   <soundManager>
-    <Path>Music/SplashSound</Path>
+    <Path>Music/8-Bit AttackOnTitan</Path>
     <isPlaying>true</isPlaying>
-    <Volume>0.0</Volume>
   </soundManager>
 </SplashScreen>

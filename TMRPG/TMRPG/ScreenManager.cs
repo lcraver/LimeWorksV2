@@ -5,6 +5,8 @@ using System.Text;
 using System.Xml.Serialization;
 using System.IO;
 
+using LimeWorksV2;
+
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
@@ -38,7 +40,7 @@ namespace LimeWorksV2
         /// <summary>
         /// Screen currently is use / Screen that we are transitioning to
         /// </summary>
-        GameScreen currentScreen, newScreen;
+        public GameScreen CurrentScreen, NewScreen;
         [XmlIgnore]
         public GraphicsDevice GraphicsDevice;
         [XmlIgnore]
@@ -63,7 +65,7 @@ namespace LimeWorksV2
 
         public void ChangeScreens(string screenName)
         {
-            newScreen = (GameScreen)Activator.CreateInstance(Type.GetType("LimeWorksV2." + screenName));
+            NewScreen = (GameScreen)Activator.CreateInstance(Type.GetType("LimeWorksV2." + screenName));
             Image.IsActive = true;
             Image.FadeEffect.Increase = true;
             Image.Alpha = 0.0f;
@@ -77,12 +79,12 @@ namespace LimeWorksV2
                 Image.Update(gameTime);
                 if (Image.Alpha == 1.0f)
                 {
-                    currentScreen.UnloadContent();
-                    currentScreen = newScreen;
-                    XMLGameScreenManager.Type = currentScreen.Type;
-                    if (File.Exists(currentScreen.XmlPath))
-                        currentScreen = XMLGameScreenManager.Load(currentScreen.XmlPath);
-                    currentScreen.LoadContent();
+                    CurrentScreen.UnloadContent();
+                    CurrentScreen = NewScreen;
+                    XMLGameScreenManager.Type = CurrentScreen.Type;
+                    if (File.Exists(CurrentScreen.XmlPath))
+                        CurrentScreen = XMLGameScreenManager.Load(CurrentScreen.XmlPath);
+                    CurrentScreen.LoadContent();
                 }
                 else if (Image.Alpha == 0.0f)
                 {
@@ -96,34 +98,34 @@ namespace LimeWorksV2
         public ScreenManager()
         {
             Dimensions = new Vector2(1280, 720);
-            currentScreen = new SplashScreen();
+            CurrentScreen = new SplashScreen();
             XMLGameScreenManager = new XMLManager<GameScreen>();
-            XMLGameScreenManager.Type = currentScreen.Type;
-            currentScreen = XMLGameScreenManager.Load("Load/SplashScreen.xml");
+            XMLGameScreenManager.Type = CurrentScreen.Type;
+            CurrentScreen = XMLGameScreenManager.Load("Load/SplashScreen.xml");
         }
 
         public void LoadContent(ContentManager Content)
         {
             this.Content = new ContentManager(Content.ServiceProvider, "Content");
-            currentScreen.LoadContent();
+            CurrentScreen.LoadContent();
             Image.LoadContent();
         }
 
         public void UnloadContent()
         {
-            currentScreen.UnloadContent();
+            CurrentScreen.UnloadContent();
             Image.UnloadContent();
         }
 
         public void Update(GameTime gameTime)
         {
-            currentScreen.Update(gameTime);
+            CurrentScreen.Update(gameTime);
             Transition(gameTime);
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            currentScreen.Draw(spriteBatch);
+            CurrentScreen.Draw(spriteBatch);
             if (isTransitioning)
                 Image.Draw(spriteBatch);
         }

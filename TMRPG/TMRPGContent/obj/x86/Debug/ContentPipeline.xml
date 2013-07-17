@@ -26,7 +26,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Fonts\Coolvetica Rg.xnb</Output>
-      <Time>2013-06-22T12:39:33.6519735-05:00</Time>
+      <Time>2013-07-16T21:27:56.0355128-05:00</Time>
     </Item>
     <Item>
       <Source>ScreenManager\fade2.png</Source>
@@ -56,6 +56,25 @@
       <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Music\SplashSound.xnb</Output>
       <Extra>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Music\SplashSound.wma</Extra>
       <Time>2013-07-08T15:55:16.8165079-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Music\8-Bit AttackOnTitan.wav</Source>
+      <Name>Music\8-Bit AttackOnTitan</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Music\8-Bit AttackOnTitan.xnb</Output>
+      <Extra>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Music\8-Bit AttackOnTitan.wma</Extra>
+      <Time>2013-07-08T23:07:38.3046334-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TitleScreen\button.png</Source>
+      <Name>TitleScreen\button</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\TitleScreen\button.xnb</Output>
+      <Time>2013-07-16T21:42:49.0557622-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

@@ -4,8 +4,12 @@ Content\Fonts\Coolvetica Rg.xnb
 Content\ScreenManager\fade2.xnb
 Content\Music\music.xnb
 Content\Music\SplashSound.xnb
+Content\Music\8-Bit AttackOnTitan.xnb
+Content\TitleScreen\button.xnb
 Content\Music\music.wma
 Content\Music\SplashSound.wma
+Content\Music\8-Bit AttackOnTitan.wma
+Load\Menus\TitleMenu.xml
 Load\TitleScreen.xml
 Load\SplashScreen.xml
 Load\ScreenManager.xml

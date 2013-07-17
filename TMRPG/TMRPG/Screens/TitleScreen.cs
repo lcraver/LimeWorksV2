@@ -12,33 +12,34 @@ namespace LimeWorksV2
 {
     public class TitleScreen : GameScreen
     {
-        public Image Image;
+        MenuManager menuManager;
+
+        public TitleScreen()
+        {
+            menuManager = new MenuManager();
+        }
 
         public override void LoadContent()
         {
             base.LoadContent();
-            Image.LoadContent();
-            //Image.FadeEffect.FadeSpeed = 0.25f;
+            menuManager.LoadContent("Load/Menus/TitleMenu.xml");
         }
 
         public override void UnloadContent()
         {
             base.UnloadContent();
-            Image.UnloadContent();
+            menuManager.UnloadContent();
         }
 
         public override void Update(GameTime gameTime)
         {
             base.Update(gameTime);
-            Image.Update(gameTime);
-
-            if (InputManager.Instance.keyPressed(Keys.Enter, Keys.Space))
-                ScreenManager.Instance.ChangeScreens("SplashScreen");
+            menuManager.Update(gameTime);
         }
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-            Image.Draw(spriteBatch);
+            menuManager.Draw(spriteBatch);
         }
     }
 }

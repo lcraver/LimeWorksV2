@@ -13,4 +13,12 @@
       <Y>50</Y>
     </Position>
   </Image>
+  <soundManager>
+    <Path>Music/music</Path>
+    <isPlaying>true</isPlaying>
+  </soundManager>
+  <SoundManager>
+    <Path>Music/music</Path>
+    <isPlaying>true</isPlaying>
+  </SoundManager>
 </TitleScreen>

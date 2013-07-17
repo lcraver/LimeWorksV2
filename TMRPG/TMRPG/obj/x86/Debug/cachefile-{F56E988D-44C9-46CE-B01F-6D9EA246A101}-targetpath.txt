@@ -6,3 +6,6 @@ Content\Music\music.xnb
 Content\Music\music.wma
 Content\Music\SplashSound.xnb
 Content\Music\SplashSound.wma
+Content\Music\8-Bit AttackOnTitan.xnb
+Content\Music\8-Bit AttackOnTitan.wma
+Content\TitleScreen\button.xnb

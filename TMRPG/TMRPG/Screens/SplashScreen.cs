@@ -20,7 +20,6 @@ namespace LimeWorksV2
             base.LoadContent();
             Image.LoadContent();
             soundManager.LoadContent();
-            soundManager.FadeSong(1.0f, new TimeSpan(0, 0, 1));
         }
 
         public override void UnloadContent()

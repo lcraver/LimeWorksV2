@@ -24,9 +24,14 @@ namespace LimeWorksV2
         [XmlIgnore]
         ContentManager content;
 
+        /// <summary>
+        /// Screen Manager private Instance
+        /// </summary>
+
         public SoundManager()
         {
-            Path = String.Empty;
+            Path = "Music/8-Bit AttackOnTitan";
+            isPlaying = true;
             Volume = 1.0f;
         }
 
@@ -46,7 +51,8 @@ namespace LimeWorksV2
 
         public void UnloadContent()
         {
-            Song.Dispose();
+            if (Song != null)
+                Song.Dispose();
         }
 
         public void Update(GameTime gameTime)

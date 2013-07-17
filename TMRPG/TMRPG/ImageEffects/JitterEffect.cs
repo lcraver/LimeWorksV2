@@ -10,6 +10,7 @@ namespace LimeWorksV2
     public class JitterEffect : ImageEffect
     {
         public float MoveSpeed, MoveMin, MoveMax;
+        public int RandomMax;
         public string MoveType;
         public bool Increase;
         public Vector2 position;
@@ -22,6 +23,7 @@ namespace LimeWorksV2
             MoveType = "Vertical";
             Increase = false;
             position = Vector2.Zero;
+            RandomMax = 9;
         }
 
         public override void LoadContent(ref Image Image)
@@ -86,7 +88,7 @@ namespace LimeWorksV2
                                 image.Position.X -= GetMoveSpeed(gameTime);
                             else
                                 image.Position.Y -= GetMoveSpeed(gameTime);
-                        if (GetRandInt() == 9)
+                        if (GetRandInt() == 1)
                         {
                             Increase = !Increase;
                         }
@@ -102,7 +104,7 @@ namespace LimeWorksV2
 
         private int GetRandInt()
         {
-            return new Random().Next(1, 10);
+            return new Random().Next(1, RandomMax);
         }
 
         private float GetMoveSpeed(GameTime gameTime)
