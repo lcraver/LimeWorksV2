@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Menu>
   <Axis>Y</Axis>
-  <Effects>FadeEffect</Effects>
+  <Effects></Effects>
   <Item>
     <LinkType>Menu</LinkType>
-    <LinkID>Load/Menus/TestMenu.xml</LinkID>
+    <LinkID>Load/Menus/TitleMenu.xml</LinkID>
     <Image>
       <Text>OMG</Text>
     </Image>
   </Item>
   <Item>
     <LinkType>Menu</LinkType>
-    <LinkID>Load/Menus/TestMenu.xml</LinkID>
+    <LinkID>Load/Menus/TitleMenu.xml</LinkID>
     <Image>
-      <Text>WTF</Text>
+      <Text>Credits</Text>
     </Image>
   </Item>
 </Menu>

@@ -1,0 +1,21 @@
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Load\TitleScreen.xml
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Load\SplashScreen.xml
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Load\ScreenManager.xml
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\SplashScreen\LSLogo.xnb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\ScreenManager\fade.xnb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\ScreenManager\fade2.xnb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\TitleScreen\button.xnb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\Fonts\Lucida﻿ Console.xnb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\Music\music.xnb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\Music\8-Bit AttackOnTitan.xnb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\Music\SplashSound.xnb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\Music\music.wma
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\Music\8-Bit AttackOnTitan.wma
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\Music\SplashSound.wma
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\LimeWorksV2.exe
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\LimeWorksV2.pdb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\obj\x86\Release\LimeWorksV2.exe
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\obj\x86\Release\LimeWorksV2.pdb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Load\Menus\ClassMenu.xml
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Load\Menus\TitleMenu.xml

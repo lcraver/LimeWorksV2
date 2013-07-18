@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+  <Effects>ZoomEffect:FadeEffect</Effects>
+  <Item>
+    <LinkType>Screen</LinkType>
+    <LinkID>SplashScreen</LinkID>
+    <Image>
+      <Text>OMGWTFBBQ</Text>
+    </Image>
+  </Item>
+  <Item>
+    <LinkType>Menu</LinkType>
+    <LinkID>Load/Menus/TitleMenu.xml</LinkID>
+    <Image>
+      <Text>Back</Text>
+    </Image>
+  </Item>
+</Menu>

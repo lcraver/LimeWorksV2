@@ -49,8 +49,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fonts\Coolvetica Rg.spritefont">
-      <Name>Coolvetica Rg</Name>
+    <Compile Include="Fonts\Lucida﻿ Console.spritefont">
+      <Name>Lucida﻿ Console</Name>
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
     </Compile>

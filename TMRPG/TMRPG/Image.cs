@@ -63,10 +63,33 @@ namespace LimeWorksV2
             }
         }
 
+        public void StoreEffects()
+        {
+            Effects = String.Empty;
+            foreach (var effect in effectList)
+            {
+                if (effect.Value.IsActive)
+                    Effects += effect.Key + ":";
+            }
+
+            if(Effects != String.Empty)
+                Effects.Remove(Effects.Length - 1);
+        }
+
+        public void RestoreEffects()
+        {
+            foreach (var effect in effectList)
+                DeactivateEffect(effect.Key);
+
+            string[] split = Effects.Split(':');
+            foreach (string s in split)
+                ActivateEffect(s);
+        }
+
         public Image()
         {
             Path = Text = Effects =  String.Empty;
-            FontName = "Fonts/Coolvetica Rg";
+            FontName = "Fonts/Lucida﻿ Console";
             Position = Vector2.Zero;
             Scale = Vector2.One;
             Alpha = 1.0f;

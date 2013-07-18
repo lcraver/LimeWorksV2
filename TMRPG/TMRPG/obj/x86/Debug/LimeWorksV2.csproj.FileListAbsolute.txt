@@ -13,7 +13,6 @@ C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\
 C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Load\ScreenManager.xml
 C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\SplashScreen\LSLogo.xnb
 C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\ScreenManager\fade.xnb
-C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Fonts\Coolvetica Rg.xnb
 C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\obj\x86\Debug\LimeWorksV2.csprojResolveAssemblyReference.cache
 C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Music\music.xnb
@@ -28,5 +27,7 @@ C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\
 C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Music\SplashSound.wma
 C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Music\8-Bit AttackOnTitan.xnb
 C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Music\8-Bit AttackOnTitan.wma
-C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Load\Menus\TitleMenu.xml
 C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\TitleScreen\button.xnb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Fonts\Lucida﻿ Console.xnb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Load\Menus\TestMenu.xml
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Load\Menus\TitleMenu.xml
