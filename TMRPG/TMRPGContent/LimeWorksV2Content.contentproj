@@ -42,15 +42,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SplashScreen\LSLogo.png">
-      <Name>LSLogo</Name>
+    <Compile Include="SplashScreen\LimeStudiosBanner.png">
+      <Name>LimeStudiosBanner</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fonts\Lucida﻿ Console.spritefont">
-      <Name>Lucida﻿ Console</Name>
+    <Compile Include="Fonts\Lucida﻿Console.spritefont">
+      <Name>Lucida﻿Console</Name>
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
     </Compile>
@@ -93,6 +93,13 @@
   <ItemGroup>
     <Compile Include="TitleScreen\button.png">
       <Name>button</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SplashScreen\LimeWorksBanner.png">
+      <Name>LimeWorksBanner</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

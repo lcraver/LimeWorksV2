@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TitleScreen>
+  <Image>
+    <Path>SplashScreen/LSLogo</Path>
+    <Effects>FadeEffect</Effects>
+    <IsActive>true</IsActive>
+    <Alpha>1.0</Alpha>
+    <FadeEffect>
+      <FadeSpeed>1</FadeSpeed>
+    </FadeEffect>
+    <Position>
+      <X>200</X>
+      <Y>50</Y>
+    </Position>
+  </Image>
+  <soundManager>
+    <Path>Music/music</Path>
+    <isPlaying>true</isPlaying>
+  </soundManager>
+  <SoundManager>
+    <Path>Music/music</Path>
+    <isPlaying>true</isPlaying>
+  </SoundManager>
+</TitleScreen>

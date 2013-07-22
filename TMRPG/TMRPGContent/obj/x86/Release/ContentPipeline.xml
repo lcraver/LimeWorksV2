@@ -2,15 +2,6 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>SplashScreen\LSLogo.png</Source>
-      <Name>SplashScreen\LSLogo</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\SplashScreen\LSLogo.xnb</Output>
-      <Time>2013-06-20T00:21:30.1832519-05:00</Time>
-    </Item>
-    <Item>
       <Source>ScreenManager\fade.png</Source>
       <Name>ScreenManager\fade</Name>
       <Importer>TextureImporter</Importer>
@@ -38,12 +29,12 @@
       <Time>2013-07-16T21:42:49.0557622-05:00</Time>
     </Item>
     <Item>
-      <Source>Fonts\Lucida﻿ Console.spritefont</Source>
-      <Name>Fonts\Lucida﻿ Console</Name>
+      <Source>Fonts\Lucida﻿Console.spritefont</Source>
+      <Name>Fonts\Lucida﻿Console</Name>
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\Fonts\Lucida﻿ Console.xnb</Output>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\Fonts\Lucida﻿Console.xnb</Output>
       <Time>2013-07-17T20:08:30.0375078-05:00</Time>
     </Item>
     <Item>
@@ -76,10 +67,28 @@
       <Extra>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\Music\SplashSound.wma</Extra>
       <Time>2013-07-08T15:55:16.8165079-05:00</Time>
     </Item>
+    <Item>
+      <Source>SplashScreen\LimeStudiosBanner.png</Source>
+      <Name>SplashScreen\LimeStudiosBanner</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\SplashScreen\LimeStudiosBanner.xnb</Output>
+      <Time>2013-06-20T00:21:30.1832519-05:00</Time>
+    </Item>
+    <Item>
+      <Source>SplashScreen\LimeWorksBanner.png</Source>
+      <Name>SplashScreen\LimeWorksBanner</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\SplashScreen\LimeWorksBanner.xnb</Output>
+      <Time>2013-07-22T15:12:22.4058675-05:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
-      <TargetProfile>HiDef</TargetProfile>
+      <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Release</BuildConfiguration>
       <CompressContent>true</CompressContent>
       <RootDirectory>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPGContent\</RootDirectory>

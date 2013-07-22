@@ -89,7 +89,7 @@ namespace LimeWorksV2
         public Image()
         {
             Path = Text = Effects =  String.Empty;
-            FontName = "Fonts/Lucida﻿ Console";
+            FontName = "Fonts/Lucida﻿Console";
             Position = Vector2.Zero;
             Scale = Vector2.One;
             Alpha = 1.0f;
