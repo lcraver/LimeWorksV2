@@ -1,7 +1,6 @@
 Content\ScreenManager\fade.xnb
 Content\ScreenManager\fade2.xnb
 Content\TitleScreen\button.xnb
-Content\Fonts\Lucida﻿Console.xnb
 Content\Music\music.xnb
 Content\Music\music.wma
 Content\Music\8-Bit AttackOnTitan.xnb
@@ -10,3 +9,4 @@ Content\Music\SplashSound.xnb
 Content\Music\SplashSound.wma
 Content\SplashScreen\LimeStudiosBanner.xnb
 Content\SplashScreen\LimeWorksBanner.xnb
+Content\Fonts\Kilix.xnb

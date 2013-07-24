@@ -49,8 +49,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fonts\Lucida﻿Console.spritefont">
-      <Name>Lucida﻿Console</Name>
+    <Compile Include="Fonts\Kilix.spritefont">
+      <Name>Kilix</Name>
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
     </Compile>

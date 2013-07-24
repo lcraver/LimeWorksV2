@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml.Serialization;
+using System.Reflection;
 
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Content;
 
 namespace LimeWorksV2
 {
@@ -17,6 +19,13 @@ namespace LimeWorksV2
         public Vector2 Position, Scale;
         public Rectangle SourceRect;
         public bool IsActive;
+
+        /// <summary>
+        /// Public Strings to set the colors of images and text
+        /// </summary>
+        public string TextColor, ImageColor;
+        
+        Color textColor, imageColor;
 
         public Texture2D Texture;
         Vector2 origin;
@@ -86,21 +95,44 @@ namespace LimeWorksV2
                 ActivateEffect(s);
         }
 
+        public Color ParseColor (string color)
+        {
+            string colorName = color;
+            if (typeof(Color).GetProperty(colorName) != null)
+            {
+                PropertyInfo colorProperty = typeof(Color).GetProperty(colorName);
+                return (Color)colorProperty.GetValue(null, null);
+            }
+            else
+            {
+                //To Alert that the inputed color isn't real
+                return Color.BlueViolet;
+            }
+        }
+
         public Image()
         {
-            Path = Text = Effects =  String.Empty;
-            FontName = "Fonts/Lucida﻿Console";
+            Path = Text = Effects = TextColor = ImageColor = String.Empty;
+            FontName = "Fonts/kilix";
             Position = Vector2.Zero;
             Scale = Vector2.One;
             Alpha = 1.0f;
             SourceRect = Rectangle.Empty;
             effectList = new Dictionary<string, ImageEffect>();
+            imageColor = Color.White;
+            textColor = Color.Black;
         }
 
         public void LoadContent()
         {
             content = new ContentManager(
                 ScreenManager.Instance.Content.ServiceProvider, "Content");
+
+            if (TextColor != "")
+                textColor = ParseColor(TextColor);
+
+            if (ImageColor != "")
+                imageColor = ParseColor(ImageColor);
 
             if (Path != String.Empty)
                 Texture = content.Load<Texture2D>(Path);
@@ -127,8 +159,8 @@ namespace LimeWorksV2
             ScreenManager.Instance.GraphicsDevice.Clear(Color.Transparent);
             ScreenManager.Instance.SpriteBatch.Begin();
             if(Texture != null)
-                ScreenManager.Instance.SpriteBatch.Draw(Texture, Vector2.Zero, Color.White);
-            ScreenManager.Instance.SpriteBatch.DrawString(font, Text, Vector2.Zero, Color.Black);
+                ScreenManager.Instance.SpriteBatch.Draw(Texture, Vector2.Zero, imageColor);
+            ScreenManager.Instance.SpriteBatch.DrawString(font, Text, Vector2.Zero, textColor);
             ScreenManager.Instance.SpriteBatch.End();
 
             Texture = renderTarget;

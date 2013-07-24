@@ -5,11 +5,15 @@
     <LinkType>Menu</LinkType>
     <LinkID>Load/Menus/ClassMenu.xml</LinkID>
     <Image>
+      <TextColor>Blue</TextColor>
+      <ImageColor>Black</ImageColor>
+      <Path>TitleScreen/button</Path>
       <Text>PLAY</Text>
     </Image>
   </Item>
   <Item>
     <Image>
+      <TextColor>DarkGrey</TextColor>
       <Text>LOAD GAME</Text>
     </Image>
   </Item>

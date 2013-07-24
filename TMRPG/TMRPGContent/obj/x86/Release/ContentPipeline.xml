@@ -29,15 +29,6 @@
       <Time>2013-07-16T21:42:49.0557622-05:00</Time>
     </Item>
     <Item>
-      <Source>Fonts\Lucida﻿Console.spritefont</Source>
-      <Name>Fonts\Lucida﻿Console</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\Fonts\Lucida﻿Console.xnb</Output>
-      <Time>2013-07-17T20:08:30.0375078-05:00</Time>
-    </Item>
-    <Item>
       <Source>Music\music.wav</Source>
       <Name>Music\music</Name>
       <Importer>WavImporter</Importer>
@@ -84,6 +75,15 @@
       <Options>None</Options>
       <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\SplashScreen\LimeWorksBanner.xnb</Output>
       <Time>2013-07-22T15:12:22.4058675-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\Kilix.spritefont</Source>
+      <Name>Fonts\Kilix</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\Fonts\Kilix.xnb</Output>
+      <Time>2013-07-23T00:30:15.2862806-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

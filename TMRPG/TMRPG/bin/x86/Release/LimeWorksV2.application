@@ -8,14 +8,14 @@
     <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="LimeWorksV2.exe.manifest" size="14869">
+    <dependentAssembly dependencyType="install" codebase="LimeWorksV2.exe.manifest" size="14857">
       <assemblyIdentity name="LimeWorksV2.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Nh3NAZ+wYQ5KlrGWoBNlgMqRYE0=</dsig:DigestValue>
+        <dsig:DigestValue>7Yuu5Z8Mt0W4siPHsao1wSBrNTE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

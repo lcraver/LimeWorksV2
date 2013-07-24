@@ -10,9 +10,24 @@ namespace LimeWorksV2
     public class JitterEffect : ImageEffect
     {
         public float MoveSpeed, MoveMin, MoveMax;
+        /// <summary>
+        /// Maximum amount of random numbers (higher number : longer time to change / lower number : shorter time to change)
+        /// </summary>
         public int RandomMax;
+
+        /// <summary>
+        /// What type of movement is the Image doing ( Vertical / Horizontal / Random )
+        /// </summary>
         public string MoveType;
+
+        /// <summary>
+        /// Whether or not the effect is Increasing. 
+        /// </summary>
         public bool Increase;
+
+        /// <summary>
+        /// Starting Position of image.
+        /// </summary>
         public Vector2 position;
 
         public JitterEffect()

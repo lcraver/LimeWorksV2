@@ -93,24 +93,24 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LimeWorksV2.exe" size="585216">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LimeWorksV2.exe" size="585728">
       <assemblyIdentity name="LimeWorksV2" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>JU+BVERaRtpCcbgCRHrB8qhdBWU=</dsig:DigestValue>
+        <dsig:DigestValue>G1n3FIfVtGCaclHLxPaJGVg8+kA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Content\Fonts\Lucida﻿Console.xnb" size="10260">
+  <file name="Content\Fonts\Kilix.xnb" size="7856">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>4DMQ0XFybgO2LWw7ugCGrqnOmwg=</dsig:DigestValue>
+      <dsig:DigestValue>uxNLDU1ZEzE6OWJpjnl+34JxcsY=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\Music\8-Bit AttackOnTitan.wma" size="2224083">
@@ -230,22 +230,22 @@
       <dsig:DigestValue>InxVKq7k5Qz2zmq78atB5QuXWCA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Load\Menus\ClassMenu.xml" size="400" writeableType="applicationData">
+  <file name="Load\Menus\ClassMenu.xml" size="423" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>QmBe1GhBTdF97WDvh1TP9mAcJx0=</dsig:DigestValue>
+      <dsig:DigestValue>QXTHmO1Il2QIeUr2fnUhhYrelFk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Load\Menus\TitleMenu.xml" size="321" writeableType="applicationData">
+  <file name="Load\Menus\TitleMenu.xml" size="472" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>DAOvowu8bzjaPQtcyCBr3Jo7YHo=</dsig:DigestValue>
+      <dsig:DigestValue>N3ycpDBzr01m1cXaFqiqgE/toeE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Load\ScreenManager.xml" size="236" writeableType="applicationData">
@@ -257,13 +257,13 @@
       <dsig:DigestValue>uBUtWI+lfiodm/XqxasV+TOGKVU=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Load\SplashScreen.xml" size="393" writeableType="applicationData">
+  <file name="Load\SplashScreen.xml" size="491" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>87cOUP6u63rMKGSeg/8f2ypTfho=</dsig:DigestValue>
+      <dsig:DigestValue>9fP68aW8Go22UVlSN+tw0L48dho=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Load\TitleScreen.xml" size="561" writeableType="applicationData">

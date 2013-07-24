@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Menu>
-  <Effects>ZoomEffect:FadeEffect</Effects>
+  <Effects>ZoomEffect</Effects>
   <Item>
     <LinkType>Screen</LinkType>
     <LinkID>SplashScreen</LinkID>
@@ -12,6 +12,7 @@
     <LinkType>Menu</LinkType>
     <LinkID>Load/Menus/TitleMenu.xml</LinkID>
     <Image>
+      <isActive>false</isActive>
       <Text>Back</Text>
     </Image>
   </Item>
