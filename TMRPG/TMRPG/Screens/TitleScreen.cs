@@ -12,7 +12,8 @@ namespace LimeWorksV2
 {
     public class TitleScreen : GameScreen
     {
-        MenuManager menuManager;
+        public Image Image;
+        public MenuManager menuManager;
 
         public TitleScreen()
         {
@@ -22,23 +23,27 @@ namespace LimeWorksV2
         public override void LoadContent()
         {
             base.LoadContent();
+            Image.LoadContent();
             menuManager.LoadContent("Load/Menus/TitleMenu.xml");
         }
 
         public override void UnloadContent()
         {
             base.UnloadContent();
+            Image.UnloadContent();
             menuManager.UnloadContent();
         }
 
         public override void Update(GameTime gameTime)
         {
             base.Update(gameTime);
+            Image.Update(gameTime);
             menuManager.Update(gameTime);
         }
 
         public override void Draw(SpriteBatch spriteBatch)
         {
+            Image.Draw(spriteBatch);
             menuManager.Draw(spriteBatch);
         }
     }

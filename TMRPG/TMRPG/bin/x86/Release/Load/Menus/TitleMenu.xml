@@ -1,19 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Menu>
-  <Effects>FadeEffect</Effects>
+  <Effects>RainbowEffect</Effects>
   <Item>
     <LinkType>Menu</LinkType>
     <LinkID>Load/Menus/ClassMenu.xml</LinkID>
     <Image>
-      <TextColor>Blue</TextColor>
-      <ImageColor>Black</ImageColor>
-      <Path>TitleScreen/button</Path>
+      <TextColor>White</TextColor>
       <Text>PLAY</Text>
     </Image>
   </Item>
   <Item>
     <Image>
-      <TextColor>DarkGrey</TextColor>
+      <TextColor>Random</TextColor>
       <Text>LOAD GAME</Text>
     </Image>
   </Item>

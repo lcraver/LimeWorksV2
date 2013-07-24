@@ -8,7 +8,6 @@ using System.Reflection;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Content;
 
 namespace LimeWorksV2
 {
@@ -25,7 +24,7 @@ namespace LimeWorksV2
         /// </summary>
         public string TextColor, ImageColor;
         
-        Color textColor, imageColor;
+        public Color textColor, imageColor;
 
         public Texture2D Texture;
         Vector2 origin;
@@ -38,6 +37,7 @@ namespace LimeWorksV2
         public FadeEffect FadeEffect;
         public ZoomEffect ZoomEffect;
         public JitterEffect JitterEffect;
+        public RainbowEffect RainbowEffect;
 
         void SetEffect<T>(ref T effect)
         {
@@ -98,15 +98,27 @@ namespace LimeWorksV2
         public Color ParseColor (string color)
         {
             string colorName = color;
-            if (typeof(Color).GetProperty(colorName) != null)
+            if (colorName.Contains("Random"))
             {
-                PropertyInfo colorProperty = typeof(Color).GetProperty(colorName);
-                return (Color)colorProperty.GetValue(null, null);
+                Random r = new Random();
+                return new Color(
+                        ( byte ) r.Next ( 0, 255 ),
+                        ( byte ) r.Next ( 0, 255 ),
+                        ( byte ) r.Next ( 0, 255 )
+                    );
             }
             else
             {
-                //To Alert that the inputed color isn't real
-                return Color.BlueViolet;
+                if (typeof(Color).GetProperty(colorName) != null)
+                {
+                    PropertyInfo colorProperty = typeof(Color).GetProperty(colorName);
+                    return (Color)colorProperty.GetValue(null, null);
+                }
+                else
+                {
+                    //To Alert that the inputed color isn't real
+                    return Color.BlueViolet;
+                }
             }
         }
 
@@ -121,6 +133,7 @@ namespace LimeWorksV2
             effectList = new Dictionary<string, ImageEffect>();
             imageColor = Color.White;
             textColor = Color.Black;
+            
         }
 
         public void LoadContent()
@@ -171,6 +184,7 @@ namespace LimeWorksV2
             SetEffect<FadeEffect>(ref FadeEffect);
             SetEffect<ZoomEffect>(ref ZoomEffect);
             SetEffect<JitterEffect>(ref JitterEffect);
+            SetEffect<RainbowEffect>(ref RainbowEffect);
 
             if (Effects != String.Empty)
             {
@@ -200,7 +214,7 @@ namespace LimeWorksV2
         {
             origin = new Vector2(SourceRect.Width / 2,
                 SourceRect.Height / 2);
-            spriteBatch.Draw(Texture, Position + origin, SourceRect, Color.White * Alpha,
+            spriteBatch.Draw(Texture, Position + origin, SourceRect, imageColor * Alpha,
                 0.0f, origin, Scale, SpriteEffects.None, 0.0f);
         }
     }
