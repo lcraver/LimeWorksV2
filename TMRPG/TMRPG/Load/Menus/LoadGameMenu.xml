@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+  <Effects>FadeEffect</Effects>
+  <Item>
+    <LinkType>Menu</LinkType>
+    <LinkID>Load/Menus/LoadGameMenu.xml</LinkID>
+    <Image>
+      <TextColor>Gray</TextColor>
+      <Text>SAVE 1</Text>
+    </Image>
+  </Item>
+  <Item>
+    <LinkType>Menu</LinkType>
+    <LinkID>Load/Menus/LoadGameMenu.xml</LinkID>
+    <Image>
+      <TextColor>Gray</TextColor>
+      <Text>SAVE 2</Text>
+    </Image>
+  </Item>
+  <Item>
+    <LinkType>Menu</LinkType>
+    <LinkID>Load/Menus/LoadGameMenu.xml</LinkID>
+    <Image>
+      <TextColor>Gray</TextColor>
+      <Text>SAVE 3</Text>
+    </Image>
+  </Item>
+  <Item>
+    <LinkType>Menu</LinkType>
+    <LinkID>Load/Menus/LoadGameMenu.xml</LinkID>
+    <Image>
+      <TextColor>Gray</TextColor>
+      <Text>SAVE 4</Text>
+    </Image>
+  </Item>
+  <Item>
+    <LinkType>Menu</LinkType>
+    <LinkID>Load/Menus/TitleMenu.xml</LinkID>
+    <Image>
+      <TextColor>Gray</TextColor>
+      <Text>BACK</Text>
+    </Image>
+  </Item>
+</Menu>

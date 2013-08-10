@@ -10,3 +10,6 @@ Content\Music\SplashSound.wma
 Content\SplashScreen\LimeStudiosBanner.xnb
 Content\SplashScreen\LimeWorksBanner.xnb
 Content\Fonts\Kilix.xnb
+Content\Music\Core of the Storm.xnb
+Content\Music\Core of the Storm.wma
+Content\Debuging\null.xnb

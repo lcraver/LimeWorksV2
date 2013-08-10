@@ -49,7 +49,7 @@ namespace LimeWorksV2
             }
         }
 
-        void AlignMenuItems()
+        public void AlignMenuItems()
         {
             Vector2 dimensions = Vector2.Zero;
             foreach (MenuItem item in Items)
@@ -70,7 +70,6 @@ namespace LimeWorksV2
                 
                 dimensions += new Vector2(item.Image.SourceRect.Width,
                     item.Image.SourceRect.Height);
-
             }
         }
 
@@ -89,10 +88,10 @@ namespace LimeWorksV2
             foreach (MenuItem item in Items)
             {
                 item.Image.LoadContent();
+                AlignMenuItems();
                 foreach (string s in split)
                     item.Image.ActivateEffect(s);
             }
-            AlignMenuItems();
         }
 
         public void UnloadContent()

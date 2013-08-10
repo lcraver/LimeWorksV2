@@ -1,16 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TitleScreen>
-  <Image>
-    <Path>SplashScreen/LimeStudiosBanner</Path>
-    <Effects>JitterEffect</Effects>
-    <JitterEffect>
-      <MoveType>Horizontal</MoveType>
-    </JitterEffect>
-    <IsActive>true</IsActive>
-    <Alpha>1.0</Alpha>
-    <Position>
-      <X>1000</X>
-      <Y>50</Y>
-    </Position>
-  </Image>
+
 </TitleScreen>

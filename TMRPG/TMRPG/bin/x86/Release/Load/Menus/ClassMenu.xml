@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Menu>
-  <Effects>ZoomEffect</Effects>
+  <Effects>RainbowEffect</Effects>
   <Item>
     <LinkType>Screen</LinkType>
     <LinkID>SplashScreen</LinkID>
     <Image>
+      <RainbowEffect>
+        <Colors>Red:Green:Blue</Colors>
+      </RainbowEffect>
+      <TextColor>White</TextColor>
       <Text>OMGWTFBBQ</Text>
     </Image>
   </Item>
@@ -12,8 +16,16 @@
     <LinkType>Menu</LinkType>
     <LinkID>Load/Menus/TitleMenu.xml</LinkID>
     <Image>
-      <isActive>false</isActive>
+      <TextColor>White</TextColor>
       <Text>Back</Text>
+    </Image>
+  </Item>
+  <Item>
+    <LinkType>Menu</LinkType>
+    <LinkID>Load/Menus/TitleMenu.xml</LinkID>
+    <Image>
+      <TextColor>White</TextColor>
+      <Text>What's Up?</Text>
     </Image>
   </Item>
 </Menu>

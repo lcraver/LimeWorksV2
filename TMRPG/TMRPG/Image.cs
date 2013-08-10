@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Xml.Serialization;
 using System.Reflection;
+using System.IO;
 
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
@@ -23,8 +24,8 @@ namespace LimeWorksV2
         /// Public Strings to set the colors of images and text
         /// </summary>
         public string TextColor, ImageColor;
-        
-        public Color textColor, imageColor;
+
+        public Color textColor, imageColor, drawColor;
 
         public Texture2D Texture;
         Vector2 origin;
@@ -133,7 +134,7 @@ namespace LimeWorksV2
             effectList = new Dictionary<string, ImageEffect>();
             imageColor = Color.White;
             textColor = Color.Black;
-            
+            drawColor = Color.White;
         }
 
         public void LoadContent()
@@ -148,7 +149,13 @@ namespace LimeWorksV2
                 imageColor = ParseColor(ImageColor);
 
             if (Path != String.Empty)
-                Texture = content.Load<Texture2D>(Path);
+            {
+                string pathtest = content.RootDirectory + "/" + Path + ".xnb";
+                if (File.Exists(pathtest))
+                    Texture = content.Load<Texture2D>(Path);
+                else
+                    Texture = content.Load<Texture2D>("Debuging/null");
+            }
 
             font = content.Load<SpriteFont>(FontName);
 
@@ -214,7 +221,7 @@ namespace LimeWorksV2
         {
             origin = new Vector2(SourceRect.Width / 2,
                 SourceRect.Height / 2);
-            spriteBatch.Draw(Texture, Position + origin, SourceRect, imageColor * Alpha,
+            spriteBatch.Draw(Texture, Position + origin, SourceRect, drawColor * Alpha,
                 0.0f, origin, Scale, SpriteEffects.None, 0.0f);
         }
     }

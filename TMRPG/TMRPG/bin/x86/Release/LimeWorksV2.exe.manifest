@@ -93,24 +93,33 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LimeWorksV2.exe" size="586752">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LimeWorksV2.exe" size="587264">
       <assemblyIdentity name="LimeWorksV2" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>1OeqKYG2kxwq8t343+IwE0B6pIE=</dsig:DigestValue>
+        <dsig:DigestValue>ZXbiU84xHnmBOpXCS6RnMEhg0GY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Content\Fonts\Kilix.xnb" size="7856">
+  <file name="Content\Debuging\null.xnb" size="492">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>uxNLDU1ZEzE6OWJpjnl+34JxcsY=</dsig:DigestValue>
+      <dsig:DigestValue>uqkLK1jWOJC1+jqsUD6qwlGC59Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Fonts\Kilix.xnb" size="10908">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>62NIefcMvoqttO8q8HFXM6VXMIY=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\Music\8-Bit AttackOnTitan.wma" size="2224083">
@@ -129,6 +138,24 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
       <dsig:DigestValue>jf6EQW+aeSK2+Vcg1di6xhPVWs0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Music\Core of the Storm.wma" size="3843671">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Wl9OEhQrymd+vC+bxCjJoornmxk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Music\Core of the Storm.xnb" size="135">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JeMd0pRJTsnj22dV+MBtt4WyPdY=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\Music\music.wma" size="1776683">
@@ -230,22 +257,40 @@
       <dsig:DigestValue>InxVKq7k5Qz2zmq78atB5QuXWCA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Load\Menus\ClassMenu.xml" size="423" writeableType="applicationData">
+  <file name="Load\LoadGameScreen.xml" size="269" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>QXTHmO1Il2QIeUr2fnUhhYrelFk=</dsig:DigestValue>
+      <dsig:DigestValue>Jibjk384jYxLFY2aQ2DkRcRukUA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Load\Menus\TitleMenu.xml" size="397" writeableType="applicationData">
+  <file name="Load\Menus\ClassMenu.xml" size="745" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>cVTljMr9f9dyOIwe7ku1ayY9yH0=</dsig:DigestValue>
+      <dsig:DigestValue>iWCJRBcRKvRNP14rvoRKcUUVCYk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Load\Menus\LoadGameMenu.xml" size="1042" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>k1x0o1UJrrbTORwUQTsonsce2Sk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Load\Menus\TitleMenu.xml" size="616" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dOCXDw2UqtDxlbMeGFZhTdl0r7Q=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Load\ScreenManager.xml" size="236" writeableType="applicationData">
@@ -257,22 +302,22 @@
       <dsig:DigestValue>uBUtWI+lfiodm/XqxasV+TOGKVU=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Load\SplashScreen.xml" size="423" writeableType="applicationData">
+  <file name="Load\SplashScreen.xml" size="421" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>nhddLe99S0je/lgXKNGDQPiIYsw=</dsig:DigestValue>
+      <dsig:DigestValue>REpSpuJZEtNYmLUxt37O65in1KA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Load\TitleScreen.xml" size="386" writeableType="applicationData">
+  <file name="Load\TitleScreen.xml" size="75" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>EM4kBbmETbnRKv6giXVFqlaEhY0=</dsig:DigestValue>
+      <dsig:DigestValue>fTqOPTOeJSl1+bYGY1AUId8nRpk=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

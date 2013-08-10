@@ -11,7 +11,7 @@
     </Position>
   </Image>
   <soundManager>
-    <Path>Music/8-Bit AttackOnTitan</Path>
+    <Path>Music/Core of the Storm</Path>
     <isPlaying>true</isPlaying>
   </soundManager>
 </SplashScreen>

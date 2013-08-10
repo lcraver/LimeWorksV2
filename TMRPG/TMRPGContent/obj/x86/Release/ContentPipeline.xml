@@ -83,7 +83,26 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\Fonts\Kilix.xnb</Output>
-      <Time>2013-07-23T00:30:15.2862806-05:00</Time>
+      <Time>2013-07-25T14:24:11.5547226-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Music\Core of the Storm.mp3</Source>
+      <Name>Music\Core of the Storm</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\Music\Core of the Storm.xnb</Output>
+      <Extra>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\Music\Core of the Storm.wma</Extra>
+      <Time>2013-07-24T19:07:56.7251957-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Debuging\null.png</Source>
+      <Name>Debuging\null</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Release\Content\Debuging\null.xnb</Output>
+      <Time>2013-08-07T14:33:22.9222148-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

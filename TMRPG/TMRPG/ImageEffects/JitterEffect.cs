@@ -26,24 +26,24 @@ namespace LimeWorksV2
         public bool Increase;
 
         /// <summary>
-        /// Starting Position of image.
+        /// Origional Position of Image (flawed)
         /// </summary>
-        public Vector2 position;
+        private Vector2 origPosition;
 
         public JitterEffect()
         {
-            MoveSpeed = 50f;
-            MoveMin = 0f;
+            MoveSpeed = 300f;
+            MoveMin = -100f;
             MoveMax = 100f;
-            MoveType = "Vertical";
+            MoveType = "Horizontal";
             Increase = false;
-            position = Vector2.Zero;
             RandomMax = 9;
         }
 
         public override void LoadContent(ref Image Image)
         {
             base.LoadContent(ref Image);
+            origPosition = Image.Position;
         }
 
         public override void UnloadContent()
@@ -56,7 +56,7 @@ namespace LimeWorksV2
             base.Update(gameTime);
             if (image.IsActive)
             {
-                switch(MoveType)
+                switch (MoveType)
                 {
                     case "Vertical":
                         if (!Increase)
@@ -64,15 +64,15 @@ namespace LimeWorksV2
                         else
                             image.Position.Y -= GetMoveSpeed(gameTime);
 
-                        if (image.Position.Y < MoveMin)
+                        if (image.Position.Y < MoveMin + origPosition.Y)
                         {
                             Increase = !Increase;
-                            image.Position.Y = MoveMin;
+                            image.Position.Y = MoveMin + origPosition.Y;
                         }
-                        else if (image.Position.Y > MoveMax)
+                        else if (image.Position.Y > MoveMax + origPosition.Y)
                         {
                             Increase = !Increase;
-                            image.Position.Y = MoveMax;
+                            image.Position.Y = MoveMax + origPosition.Y;
                         }
                         break;
                     case "Horizontal":
@@ -81,15 +81,15 @@ namespace LimeWorksV2
                         else
                             image.Position.X -= GetMoveSpeed(gameTime);
 
-                        if (image.Position.X < MoveMin)
+                        if (image.Position.X < MoveMin + origPosition.X)
                         {
                             Increase = !Increase;
-                            image.Position.X = MoveMin;
+                            image.Position.X = MoveMin + origPosition.X;
                         }
-                        else if (image.Position.X > MoveMax)
+                        else if (image.Position.X > MoveMax + origPosition.X)
                         {
                             Increase = !Increase;
-                            image.Position.X = MoveMax;
+                            image.Position.X = MoveMax + origPosition.X;
                         }
                         break;
                     case "Random":
@@ -107,6 +107,23 @@ namespace LimeWorksV2
                         {
                             Increase = !Increase;
                         }
+                        break;
+                }
+            }
+            else
+            {
+                switch (MoveType)
+                {
+                    case "Vertical":
+                        image.Position.Y = origPosition.Y;
+                        break;
+
+                    case "Horizontal":
+                        image.Position.X = origPosition.X;
+                        break;
+
+                    case "Random":
+                        image.Position = origPosition;
                         break;
                 }
             }

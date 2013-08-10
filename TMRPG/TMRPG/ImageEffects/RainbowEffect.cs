@@ -19,8 +19,8 @@ namespace LimeWorksV2
         {
             //color is being read from the xml file
             Colors = String.Empty;
-            colorsArray = new string[7] { "Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet" };
-            ChangeSpeed = 50;
+            colorsArray = new string[8] { "Black", "Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet" };
+            ChangeSpeed = 10;
             Increase = false;
         }
 
@@ -47,10 +47,10 @@ namespace LimeWorksV2
                     currentColor++;
                 if (currentColor == colorsArray.Length)
                     currentColor = 0;
-                image.imageColor = image.ParseColor(colorsArray[currentColor].ToString());
+                image.drawColor = image.ParseColor(colorsArray[currentColor].ToString());
             }
             else
-                image.imageColor = image.ParseColor(colorsArray[0].ToString());
+                image.drawColor = image.ParseColor(colorsArray[0].ToString());
         }
 
         private int GetRandInt()
