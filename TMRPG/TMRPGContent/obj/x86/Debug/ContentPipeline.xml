@@ -2,12 +2,12 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>SplashScreen\LSLogo.png</Source>
-      <Name>SplashScreen\LSLogo</Name>
+      <Source>SplashScreen\LimeStudiosBanner.png</Source>
+      <Name>SplashScreen\LimeStudiosBanner</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\SplashScreen\LSLogo.xnb</Output>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\SplashScreen\LimeStudiosBanner.xnb</Output>
       <Time>2013-06-20T00:21:30.1832519-05:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\ScreenManager\fade.xnb</Output>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\ScreenManager\fade.xnb</Output>
       <Time>2013-06-25T11:22:14.0716569-05:00</Time>
     </Item>
     <Item>
@@ -25,38 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\ScreenManager\fade2.xnb</Output>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\ScreenManager\fade2.xnb</Output>
       <Time>2013-07-08T13:48:50.2684093-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Music\music.wav</Source>
-      <Name>Music\music</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SongProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Music\music.xnb</Output>
-      <Extra>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Music\music.wma</Extra>
-      <Time>2013-06-26T09:21:07.4479999-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Music\SplashSound.mp3</Source>
-      <Name>Music\SplashSound</Name>
-      <Importer>Mp3Importer</Importer>
-      <Processor>SongProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Music\SplashSound.xnb</Output>
-      <Extra>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Music\SplashSound.wma</Extra>
-      <Time>2013-07-08T15:55:16.8165079-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Music\8-Bit AttackOnTitan.wav</Source>
-      <Name>Music\8-Bit AttackOnTitan</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SongProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Music\8-Bit AttackOnTitan.xnb</Output>
-      <Extra>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Music\8-Bit AttackOnTitan.wma</Extra>
-      <Time>2013-07-08T23:07:38.3046334-05:00</Time>
     </Item>
     <Item>
       <Source>TitleScreen\button.png</Source>
@@ -64,28 +34,176 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\TitleScreen\button.xnb</Output>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\TitleScreen\button.xnb</Output>
       <Time>2013-07-16T21:42:49.0557622-05:00</Time>
     </Item>
     <Item>
-      <Source>Fonts\Lucida﻿ Console.spritefont</Source>
-      <Name>Fonts\Lucida﻿ Console</Name>
+      <Source>SplashScreen\LimeWorksBanner.png</Source>
+      <Name>SplashScreen\LimeWorksBanner</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\SplashScreen\LimeWorksBanner.xnb</Output>
+      <Time>2013-07-22T15:12:22.4058675-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Debuging\null.png</Source>
+      <Name>Debuging\null</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\Debuging\null.xnb</Output>
+      <Time>2013-08-07T14:33:22.9222148-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\null.png</Source>
+      <Name>Sprites\null</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\Sprites\null.xnb</Output>
+      <Time>2013-08-13T23:58:06.2971345-05:00</Time>
+    </Item>
+    <Item>
+      <Source>ParticleBase1.png</Source>
+      <Name>ParticleBase1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\ParticleBase1.xnb</Output>
+      <Time>2013-08-16T01:18:07.657521-05:00</Time>
+    </Item>
+    <Item>
+      <Source>hardparticle.png</Source>
+      <Name>hardparticle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\hardparticle.xnb</Output>
+      <Time>2013-08-16T02:22:24.3113822-05:00</Time>
+    </Item>
+    <Item>
+      <Source>GamePlayScreen\player.png</Source>
+      <Name>GamePlayScreen\player</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\GamePlayScreen\player.xnb</Output>
+      <Time>2013-10-01T17:37:49.5766041-05:00</Time>
+    </Item>
+    <Item>
+      <Source>GamePlayScreen\TileSheets\ground.png</Source>
+      <Name>GamePlayScreen\TileSheets\ground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\GamePlayScreen\TileSheets\ground.xnb</Output>
+      <Time>2013-10-01T18:42:13.5725722-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\Kilix.spritefont</Source>
+      <Name>Fonts\Kilix</Name>
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\Fonts\Lucida﻿ Console.xnb</Output>
-      <Time>2013-07-17T20:08:30.0375078-05:00</Time>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\Fonts\Kilix.xnb</Output>
+      <Time>2013-07-25T14:24:11.5547226-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Music\music.wav</Source>
+      <Name>Music\music</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\Music\music.xnb</Output>
+      <Extra>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\Music\music.wma</Extra>
+      <Time>2013-06-26T09:21:07.4479999-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Music\8-Bit AttackOnTitan.wav</Source>
+      <Name>Music\8-Bit AttackOnTitan</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\Music\8-Bit AttackOnTitan.xnb</Output>
+      <Extra>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\Music\8-Bit AttackOnTitan.wma</Extra>
+      <Time>2013-07-08T23:07:38.3046334-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Music\SplashSound.mp3</Source>
+      <Name>Music\SplashSound</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\Music\SplashSound.xnb</Output>
+      <Extra>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\Music\SplashSound.wma</Extra>
+      <Time>2013-07-08T15:55:16.8165079-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Music\Core of the Storm.mp3</Source>
+      <Name>Music\Core of the Storm</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\Music\Core of the Storm.xnb</Output>
+      <Extra>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\Music\Core of the Storm.wma</Extra>
+      <Time>2013-07-24T19:07:56.7251957-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TileMapEditor\Selector\BottomLeft.png</Source>
+      <Name>TileMapEditor\Selector\BottomLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\TileMapEditor\Selector\BottomLeft.xnb</Output>
+      <Time>2013-10-01T22:30:56.2164951-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TileMapEditor\Selector\BottomRight.png</Source>
+      <Name>TileMapEditor\Selector\BottomRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\TileMapEditor\Selector\BottomRight.xnb</Output>
+      <Time>2013-10-01T22:30:05.5047492-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TileMapEditor\Selector\TopLeft.png</Source>
+      <Name>TileMapEditor\Selector\TopLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\TileMapEditor\Selector\TopLeft.xnb</Output>
+      <Time>2013-10-01T22:27:34.7795426-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TileMapEditor\Selector\TopRight.png</Source>
+      <Name>TileMapEditor\Selector\TopRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\TileMapEditor\Selector\TopRight.xnb</Output>
+      <Time>2013-10-01T22:29:13.8317309-05:00</Time>
+    </Item>
+    <Item>
+      <Source>GamePlayScreen\TileSheets\zelda-tiles.png</Source>
+      <Name>GamePlayScreen\TileSheets\zelda-tiles</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\GamePlayScreen\TileSheets\zelda-tiles.xnb</Output>
+      <Time>2013-10-04T10:48:19.242325-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
-      <TargetProfile>HiDef</TargetProfile>
+      <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
-      <CompressContent>false</CompressContent>
+      <CompressContent>true</CompressContent>
       <RootDirectory>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPGContent\</RootDirectory>
       <LoggerRootDirectory>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\</LoggerRootDirectory>
       <IntermediateDirectory>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPGContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\bin\x86\Debug\Content\</OutputDirectory>
+      <OutputDirectory>C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\TMRPG\TMRPG\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

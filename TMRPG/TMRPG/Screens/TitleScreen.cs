@@ -17,8 +17,7 @@ namespace LimeWorksV2
 
         public TitleScreen()
         {
-            menuManager = new MenuManager();
-        }
+            menuManager = new MenuManager();        }
 
         public override void LoadContent()
         {
@@ -31,7 +30,7 @@ namespace LimeWorksV2
         {
             base.UnloadContent();
             //Image.UnloadContent();
-            menuManager.UnloadContent();
+            //menuManager.UnloadContent();
         }
 
         public override void Update(GameTime gameTime)

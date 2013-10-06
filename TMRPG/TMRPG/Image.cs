@@ -39,6 +39,7 @@ namespace LimeWorksV2
         public ZoomEffect ZoomEffect;
         public JitterEffect JitterEffect;
         public RainbowEffect RainbowEffect;
+        public SpriteSheetEffect SpriteSheetEffect;
 
         void SetEffect<T>(ref T effect)
         {
@@ -137,7 +138,21 @@ namespace LimeWorksV2
             drawColor = Color.White;
         }
 
-        public void LoadContent()
+        public Image(Vector2 pos)
+        {
+            Path = Text = Effects = TextColor = ImageColor = String.Empty;
+            FontName = "Fonts/kilix";
+            Position = pos;
+            Scale = Vector2.One;
+            Alpha = 1.0f;
+            SourceRect = Rectangle.Empty;
+            effectList = new Dictionary<string, ImageEffect>();
+            imageColor = Color.White;
+            textColor = Color.Black;
+            drawColor = Color.White;
+        }
+
+        public virtual void LoadContent()
         {
             content = new ContentManager(
                 ScreenManager.Instance.Content.ServiceProvider, "Content");
@@ -192,6 +207,7 @@ namespace LimeWorksV2
             SetEffect<ZoomEffect>(ref ZoomEffect);
             SetEffect<JitterEffect>(ref JitterEffect);
             SetEffect<RainbowEffect>(ref RainbowEffect);
+            SetEffect<SpriteSheetEffect>(ref SpriteSheetEffect);
 
             if (Effects != String.Empty)
             {
@@ -201,14 +217,14 @@ namespace LimeWorksV2
             }
         }
 
-        public void UnloadContent()
+        public virtual void UnloadContent()
         {
             content.Unload();
             foreach (var effect in effectList)
                 DeactivateEffect(effect.Key);
         }
 
-        public void Update(GameTime gameTime)
+        public virtual void Update(GameTime gameTime)
         {
             foreach (var effect in effectList)
             {
@@ -217,7 +233,7 @@ namespace LimeWorksV2
             }
         }
 
-        public void Draw(SpriteBatch spriteBatch)
+        public virtual void Draw(SpriteBatch spriteBatch)
         {
             origin = new Vector2(SourceRect.Width / 2,
                 SourceRect.Height / 2);

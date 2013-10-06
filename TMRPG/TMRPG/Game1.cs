@@ -13,10 +13,19 @@ namespace LimeWorksV2
     /// <summary>
     /// This is the main type for your game
     /// </summary>
-    public class Game1 : Microsoft.Xna.Framework.Game
+    public class Game1 : Game
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+
+        #region Frames Per Second Field Region
+
+        private float fps;
+        private float updateInterval = 1.0f;
+        private float timeSinceLastUpdate = 0.0f;
+        private float frameCount = 0;
+
+        #endregion
 
         public Game1()
         {
@@ -35,6 +44,9 @@ namespace LimeWorksV2
             graphics.PreferredBackBufferWidth = (int)ScreenManager.Instance.Dimensions.X;
             graphics.PreferredBackBufferHeight = (int)ScreenManager.Instance.Dimensions.Y;
             graphics.ApplyChanges();
+
+            this.IsFixedTimeStep = false;
+            graphics.SynchronizeWithVerticalRetrace = false;
 
             base.Initialize();
         }
@@ -91,6 +103,22 @@ namespace LimeWorksV2
             spriteBatch.End();
 
             base.Draw(gameTime);
+
+            #region FPS Debuging
+            
+            float elapsed = (float)gameTime.ElapsedGameTime.TotalSeconds;
+            frameCount++;
+            timeSinceLastUpdate += elapsed;
+
+            if (timeSinceLastUpdate > updateInterval)
+            {
+                fps = frameCount / timeSinceLastUpdate;
+                this.Window.Title = "Crazy Quest - FPS: " + fps.ToString();
+                frameCount = 0;
+                timeSinceLastUpdate -= updateInterval;
+            }
+
+            #endregion
         }
     }
 }

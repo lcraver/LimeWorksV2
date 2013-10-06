@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Map>
+  <TileDimensions>
+    <X>16</X>
+    <Y>16</Y>
+  </TileDimensions>
+
+  <Layer>
+    <Image>
+      <Path>GamePlayScreen/TileSheets/zelda-tiles</Path>
+    </Image>
+    <TileMap>
+      <Row>[21:2][0:0][0:0][0:0][0:0][0:0][0:0]</Row>
+      <Row>[0:0][0:0][0:0][0:0][0:0][0:0][0:0]</Row>
+      <Row>[0:0][0:0][0:0][0:0][0:0][0:0][0:0]</Row>
+      <Row>[0:0][0:0][0:0][0:0][0:0][0:0][0:0]</Row>
+      <Row>[0:0][0:0][0:0][0:0][0:0][0:0][0:0]</Row>
+      <Row>[0:0][0:0][0:0][0:0][0:0][0:0][0:0]</Row>
+      <Row>[0:0][0:0][0:0][0:0][0:0][0:0][0:0]</Row>
+    </TileMap>
+  </Layer>
+
+  <Layer>
+    <Image>
+      <Path>GamePlayScreen/TileSheets/ground</Path>
+    </Image>
+    <SolidTiles>[6:3]</SolidTiles>
+    <OverlayTiles>[3:6]</OverlayTiles>
+    <TileMap>
+      <Row>[X:X][X:X][X:X][X:X][X:X][X:X][X:X]</Row>
+      <Row>[X:X][X:X][X:X][X:X][X:X][X:X][X:X]</Row>
+      <Row>[X:X][X:X][6:3][X:X][3:6][3:6][6:3]</Row>
+      <Row>[X:X][X:X][6:3][X:X][X:X][X:X][6:3]</Row>
+      <Row>[X:X][X:X][6:3][X:X][X:X][X:X][6:3]</Row>
+      <Row>[X:X][X:X][6:3][X:X][X:X][X:X][6:3]</Row>
+      <Row>[X:X][X:X][6:3][6:3][6:3][6:3][6:3]</Row>
+    </TileMap>
+  </Layer>
+</Map>

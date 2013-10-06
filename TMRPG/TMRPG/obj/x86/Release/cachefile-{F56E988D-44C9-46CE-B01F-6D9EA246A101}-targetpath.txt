@@ -13,3 +13,6 @@ Content\Fonts\Kilix.xnb
 Content\Music\Core of the Storm.xnb
 Content\Music\Core of the Storm.wma
 Content\Debuging\null.xnb
+Content\Sprites\null.xnb
+Content\ParticleBase1.xnb
+Content\hardparticle.xnb

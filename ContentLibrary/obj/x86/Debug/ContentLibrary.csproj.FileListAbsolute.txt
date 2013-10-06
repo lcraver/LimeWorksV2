@@ -1,0 +1,5 @@
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\ContentLibrary\bin\x86\Debug\ContentLibrary.dll
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\ContentLibrary\bin\x86\Debug\ContentLibrary.pdb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\ContentLibrary\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\ContentLibrary\obj\x86\Debug\ContentLibrary.dll
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\LimeWorksV2\ContentLibrary\obj\x86\Debug\ContentLibrary.pdb

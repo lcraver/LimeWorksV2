@@ -1,11 +1,25 @@
-Content\SplashScreen\LSLogo.xnb
+Content\SplashScreen\LimeStudiosBanner.xnb
 Content\ScreenManager\fade.xnb
 Content\ScreenManager\fade2.xnb
+Content\TitleScreen\button.xnb
+Content\SplashScreen\LimeWorksBanner.xnb
+Content\Debuging\null.xnb
+Content\Sprites\null.xnb
+Content\ParticleBase1.xnb
+Content\hardparticle.xnb
+Content\GamePlayScreen\player.xnb
+Content\GamePlayScreen\TileSheets\ground.xnb
+Content\Fonts\Kilix.xnb
 Content\Music\music.xnb
 Content\Music\music.wma
-Content\Music\SplashSound.xnb
-Content\Music\SplashSound.wma
 Content\Music\8-Bit AttackOnTitan.xnb
 Content\Music\8-Bit AttackOnTitan.wma
-Content\TitleScreen\button.xnb
-Content\Fonts\Lucida﻿ Console.xnb
+Content\Music\SplashSound.xnb
+Content\Music\SplashSound.wma
+Content\Music\Core of the Storm.xnb
+Content\Music\Core of the Storm.wma
+Content\TileMapEditor\Selector\BottomLeft.xnb
+Content\TileMapEditor\Selector\BottomRight.xnb
+Content\TileMapEditor\Selector\TopLeft.xnb
+Content\TileMapEditor\Selector\TopRight.xnb
+Content\GamePlayScreen\TileSheets\zelda-tiles.xnb

@@ -9,11 +9,15 @@ Content\SplashScreen\LimeWorksBanner.xnb
 Content\Fonts\Kilix.xnb
 Content\Music\Core of the Storm.xnb
 Content\Debuging\null.xnb
+Content\Sprites\null.xnb
+Content\ParticleBase1.xnb
+Content\hardparticle.xnb
 Content\Music\music.wma
 Content\Music\8-Bit AttackOnTitan.wma
 Content\Music\SplashSound.wma
 Content\Music\Core of the Storm.wma
 GameThumbnail.png
+Load\GamePlayScreen.xml
 Load\LoadGameScreen.xml
 Load\Menus\ClassMenu.xml
 Load\Menus\LoadGameMenu.xml

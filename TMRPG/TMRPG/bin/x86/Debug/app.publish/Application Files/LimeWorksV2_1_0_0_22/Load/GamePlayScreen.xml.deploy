@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GamePlayScreen>
+  <Image>
+    <Path>SplashScreen/LimeStudiosBanner.png</Path>
+  </Image>
+  <soundManager>
+    <Path>Music/8-Bit AttackOnTitan</Path>
+    <isPlaying>true</isPlaying>
+  </soundManager>
+</GamePlayScreen>

@@ -13,7 +13,6 @@ namespace LimeWorksV2
     public class LoadGameScreen : GameScreen
     {
         public Image Image;
-        public SoundManager soundManager;
         public MenuManager menuManager;
 
         public LoadGameScreen()
@@ -25,7 +24,6 @@ namespace LimeWorksV2
         {
             base.LoadContent();
             Image.LoadContent();
-            soundManager.LoadContent();
             menuManager.LoadContent("Load/Menus/LoadGameMenu.xml");
         }
 
@@ -33,7 +31,6 @@ namespace LimeWorksV2
         {
             base.UnloadContent();
             Image.UnloadContent();
-            soundManager.UnloadContent();
             menuManager.UnloadContent();
         }
 
@@ -41,7 +38,6 @@ namespace LimeWorksV2
         {
             base.Update(gameTime);
             Image.Update(gameTime);
-            soundManager.Update(gameTime);
             menuManager.Update(gameTime);
         }
 
